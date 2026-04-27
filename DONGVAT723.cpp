@@ -3,7 +3,7 @@
 int main() {
     int choice;
     float money, total = 0;
- // NEW: lưu danh sách chi tiêu
+ // NEW: danh sách chi tiêu
     float expenses[100];
     int count = 0;
     do {
