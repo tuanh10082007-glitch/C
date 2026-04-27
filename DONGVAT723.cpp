@@ -3,7 +3,9 @@
 int main() {
     int choice;
     float money, total = 0;
-
+ // NEW: lưu danh sách chi tiêu
+    float expenses[100];
+    int count = 0;
     do {
         printf("\n===== QUAN LY CHI TIEU =====\n");
         printf("1. Them chi tieu\n");
